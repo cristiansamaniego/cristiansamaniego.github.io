@@ -1,5 +1,22 @@
+/*  TIPOGRAFIAS
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-golden{
+  color: #daa520;
+}
+
 nav {
     min-height: 100px!important;
+    background-color: #121212;
 }
 
 .navbar-brand {
@@ -16,12 +33,47 @@ nav {
     margin: auto 40%; /* En movil el logo se ve enmedio bien perron, en desktop se ve un poco raro */
 }
 
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #daa520!important;
+  text-transform: uppercase;
+}
+
+.dropdown-menu{
+  background-color: #121212;
+}
+
+.dropdown-item{
+    color: #daa520;
+}
+
+.dropdown-divider{
+ border-top: 1px solid #424242;
+}
+
 .carousel {
-  max-height: 750px;
+  /*max-height: 750px;*/
   overflow: hidden;
 }
 
-.carousel img{
+.card{
+  background-color: #daa520!important;
+  border: none;
+  border-radius: 0;
+  color: #121212;
+}
 
+.footer {
+    /*position: absolute;
+    left: 0;
+    bottom: 0;*/
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px 0px!important;
+}
+
+.footer-middle{
+  border: solid #121212;
+  border-width: 0px 3px;
 }
 
