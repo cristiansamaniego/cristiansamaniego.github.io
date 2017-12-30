@@ -2,6 +2,32 @@
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
+@font-face {
+    font-family: 'champagne_limousines';
+    src: url('../fonts/champagne_limousines.woff2') format('woff2'),
+         url('../fonts/champagne_limousines.woff') format('woff'),
+        url('../fonts/champagne_limousines.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.whatsapp{
+  color: #25d366;
+}
+
+.phone-icon{
+  color: #72f46c;
+}
+
+.champagne{
+  font-family: 'champagne_limousines', sans-serif;
+}
+
+h2.champagne{
+  font-family: 'champagne_limousines', sans-serif;
+  font-size: 3rem;
+}
+
 .montserrat{
   font-family: 'Montserrat', sans-serif;
 }
@@ -11,8 +37,19 @@ body{
 }
 
 .text-golden{
-  color: #daa520;
+   background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
+   background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+   background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+   background: linear-gradient(to right, #ac8010 , #ffda7a, #ac8010);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+.mt-8rem {
+  margin-top: 8rem!important;
+}
+
+/*===============================*/
 
 nav {
     min-height: 100px!important;
@@ -35,8 +72,29 @@ nav {
 
 .nav-link{
   font-family: 'Montserrat', sans-serif;
-  color: #daa520!important;
+  /*color: #daa520!important;*/
   text-transform: uppercase;
+  font-size: 14px!important;
+  color: #daa520;
+  background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
+   background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+   background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+   background: linear-gradient(to right, #ac8010 , #ffda7a, #ac8010);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover{
+  color: #e8bc4c!important;
+}
+
+.dropdown-item:hover {
+  color: #e8b84c;
+  background-color: #424242;
+}
+
+.telefono{
+ letter-spacing: 1px;
 }
 
 .dropdown-menu{
@@ -56,11 +114,60 @@ nav {
   overflow: hidden;
 }
 
+.hr-main{
+  max-width: 250px;
+  margin: 15px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 4px transparent;
+  border-color: #daa520;
+  margin-bottom: 3rem;
+  border-image:linear-gradient(to right, #daa520 0px, #ffda7a 50%, #daa520 100%);
+  border-image-slice: 1;
+}
+
+.hr-main:after{
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f118';
+  color: #ffda7a;
+  background-color: white;
+}
+
+#ciudades{
+  padding-bottom: 4rem;
+}
+
 .card{
   background-color: #daa520!important;
   border: none;
   border-radius: 0;
   color: #121212;
+  margin: 10px;
+  background: -webkit-linear-gradient(left, #daa520, #e8bc4c, #daa520);
+   background: -o-linear-gradient(right, #daa520, #e8bc4c, #daa520);
+   background: -moz-linear-gradient(right, #daa520, #e8bc4c, #daa520);
+   background: linear-gradient(to right, #daa520 , #e8bc4c, #daa520);
+  -webkit-background-clip: border-box;
+}
+
+#trabajos>.hr-main:after{
+  background-color: #121212;
+}
+
+#trabajos{
+  background-color: #121212;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#trabajos>.container>.d-flex>img{
+  padding: 4px;
 }
 
 .footer {
@@ -77,3 +184,58 @@ nav {
   border-width: 0px 3px;
 }
 
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=7151q0krjrmgDyQlyt7t5lAyIgG */
+/*
+.color-primary-0 { color: #daa520 } main
+.color-primary-1 { color: #FFDA7A }
+.color-primary-2 { color: #E8BC4C }
+.color-primary-3 { color: #AC8010 }
+.color-primary-4 { color: #855F00 }
+
+.color-secondary-1-0 { color: #7AC61D } main secundario
+.color-secondary-1-1 { color: #B3EA70 }
+.color-secondary-1-2 { color: #93D345 }
+.color-secondary-1-3 { color: #5D9D0E }
+.color-secondary-1-4 { color: #437900 }
+
+.color-secondary-2-0 { color: #BB1B5C } main secundario
+.color-secondary-2-1 { color: #DE6B99 }
+.color-secondary-2-2 { color: #C74177 }
+.color-secondary-2-3 { color: #940D44 }
+.color-secondary-2-4 { color: #72002E }
+
+.color-complement-0 { color: #263696 } main complementario
+.color-complement-1 { color: #646FB6 }
+.color-complement-2 { color: #424F9F }
+.color-complement-3 { color: #192576 }
+.color-complement-4 { color: #0B165B }
+
+===== RGBA ====
+
+.rgba-primary-0 { color: rgba(218,165, 32,1) }
+.rgba-primary-1 { color: rgba(255,218,122,1) }
+.rgba-primary-2 { color: rgba(232,188, 76,1) }
+.rgba-primary-3 { color: rgba(172,128, 16,1) }
+.rgba-primary-4 { color: rgba(133, 95,  0,1) }
+
+.rgba-secondary-1-0 { color: rgba(122,198, 29,1) }
+.rgba-secondary-1-1 { color: rgba(179,234,112,1) }
+.rgba-secondary-1-2 { color: rgba(147,211, 69,1) }
+.rgba-secondary-1-3 { color: rgba( 93,157, 14,1) }
+.rgba-secondary-1-4 { color: rgba( 67,121,  0,1) }
+
+.rgba-secondary-2-0 { color: rgba(187, 27, 92,1) }
+.rgba-secondary-2-1 { color: rgba(222,107,153,1) }
+.rgba-secondary-2-2 { color: rgba(199, 65,119,1) }
+.rgba-secondary-2-3 { color: rgba(148, 13, 68,1) }
+.rgba-secondary-2-4 { color: rgba(114,  0, 46,1) }
+
+.rgba-complement-0 { color: rgba( 38, 54,150,1) }
+.rgba-complement-1 { color: rgba(100,111,182,1) }
+.rgba-complement-2 { color: rgba( 66, 79,159,1) }
+.rgba-complement-3 { color: rgba( 25, 37,118,1) }
+.rgba-complement-4 { color: rgba( 11, 22, 91,1) }
+
+
+*/
