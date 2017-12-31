@@ -2,175 +2,149 @@
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
+
 @font-face {
     font-family: 'champagne_limousines';
-    src: url('../fonts/champagne_limousines.woff2') format('woff2'),
-         url('../fonts/champagne_limousines.woff') format('woff'),
-        url('../fonts/champagne_limousines.ttf')  format('truetype'); /* Safari, Android, iOS */
+    src: url('../fonts/champagne_limousines.woff2') format('woff2'), url('../fonts/champagne_limousines.woff') format('woff'), url('../fonts/champagne_limousines.ttf') format('truetype');
+    /* Safari, Android, iOS */
     font-weight: normal;
     font-style: normal;
 }
-
-.whatsapp{
-  color: #25d366;
+.whatsapp {
+    color: #25d366;
 }
-
-.phone-icon{
-  /*color: #72f46c;*/
-  color: #25d366;
+.phone-icon {
+    /*color: #72f46c;*/
+    color: #25d366;
 }
-
-.champagne{
-  font-family: 'champagne_limousines', sans-serif;
+.champagne {
+    font-family: 'champagne_limousines', sans-serif;
 }
-
-h2.champagne{
-  font-family: 'champagne_limousines', sans-serif;
-  font-size: 3rem;
+h2.champagne {
+    font-family: 'champagne_limousines', sans-serif;
+    font-size: 3rem;
 }
-
-.montserrat{
-  font-family: 'Montserrat', sans-serif;
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
 }
-
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-.text-golden{
-   background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
-   background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
-   background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
-   background: linear-gradient(to right, #ac8010 , #ffda7a, #ac8010);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.text-golden {
+    background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
+    background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+    background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+    background: linear-gradient(to right, #ac8010, #ffda7a, #ac8010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 .mt-8rem {
-  margin-top: 8rem!important;
+    margin-top: 8rem!important;
 }
-
 /*===============================*/
 
 nav {
     min-height: 100px!important;
     background-color: #121212;
 }
-
 .navbar-brand {
     padding: 4px 0px;
     height: 80px;
     display: block;
     float: none;
 }
-
 .navbar-brand>img {
     display: block;
     max-height: 140%;
     /* TODO maybe mover a una media query */
-    margin: auto 40%; /* En movil el logo se ve enmedio bien perron, en desktop se ve un poco raro */
+    margin: auto 40%;
+    /* En movil el logo se ve enmedio bien perron, en desktop se ve un poco raro */
 }
-
-.nav-link{
-  font-family: 'Montserrat', sans-serif;
-  /*color: #daa520!important;*/
-  text-transform: uppercase;
-  font-size: 14px!important;
-  color: #daa520;
-  background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
-   background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
-   background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
-   background: linear-gradient(to right, #ac8010 , #ffda7a, #ac8010);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    /*color: #daa520!important;*/
+    text-transform: uppercase;
+    font-size: 14px!important;
+    color: #daa520;
+    background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
+    background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+    background: -moz-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
+    background: linear-gradient(to right, #ac8010, #ffda7a, #ac8010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-.nav-link:hover{
-  color: #e8bc4c!important;
+.nav-link:hover {
+    color: #e8bc4c!important;
 }
-
 .dropdown-item:hover {
-  color: #e8b84c;
-  background-color: #424242;
+    color: #e8b84c;
+    background-color: #424242;
 }
-
-.telefono{
- letter-spacing: 1px;
+.telefono {
+    letter-spacing: 1px;
 }
-
-.dropdown-menu{
-  background-color: #121212;
+.dropdown-menu {
+    background-color: #121212;
 }
-
-.dropdown-item{
+.dropdown-item {
     color: #daa520;
 }
-
-.dropdown-divider{
- border-top: 1px solid #424242;
+.dropdown-divider {
+    border-top: 1px solid #424242;
 }
-
 .carousel {
-  /*max-height: 750px;*/
-  overflow: hidden;
+    /*max-height: 750px;*/
+    overflow: hidden;
 }
-
-.hr-main{
-  max-width: 250px;
-  margin: 15px auto 30px;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 4px transparent;
-  border-color: #daa520;
-  margin-bottom: 3rem;
-  border-image:linear-gradient(to right, #daa520 0px, #ffda7a 50%, #daa520 100%);
-  border-image-slice: 1;
+.hr-main {
+    max-width: 250px;
+    margin: 15px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 4px transparent;
+    border-color: #daa520;
+    margin-bottom: 3rem;
+    border-image: linear-gradient(to right, #daa520 0px, #ffda7a 50%, #daa520 100%);
+    border-image-slice: 1;
 }
-
-.hr-main:after{
-  font-family: FontAwesome;
-  font-size: 2em;
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f118';
-  color: #ffda7a;
-  background-color: white;
+.hr-main:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    content: '\f118';
+    color: #ffda7a;
+    background-color: white;
 }
-
-#ciudades{
-  padding-bottom: 4rem;
+#ciudades {
+    padding-bottom: 4rem;
 }
-
-.card{
-  background-color: #daa520!important;
-  border: none;
-  border-radius: 0;
-  color: #121212;
-  margin: 10px;
-  background: -webkit-linear-gradient(left, #daa520, #e8bc4c, #daa520);
-   background: -o-linear-gradient(right, #daa520, #e8bc4c, #daa520);
-   background: -moz-linear-gradient(right, #daa520, #e8bc4c, #daa520);
-   background: linear-gradient(to right, #daa520 , #e8bc4c, #daa520);
-  -webkit-background-clip: border-box;
+.card {
+    background-color: #daa520!important;
+    border: none;
+    border-radius: 0;
+    color: #121212;
+    margin: 10px;
+    background: -webkit-linear-gradient(left, #daa520, #e8bc4c, #daa520);
+    background: -o-linear-gradient(right, #daa520, #e8bc4c, #daa520);
+    background: -moz-linear-gradient(right, #daa520, #e8bc4c, #daa520);
+    background: linear-gradient(to right, #daa520, #e8bc4c, #daa520);
+    -webkit-background-clip: border-box;
 }
-
-#trabajos>.hr-main:after{
-  background-color: #121212;
+#trabajos>.hr-main:after {
+    background-color: #121212;
 }
-
-#trabajos{
-  background-color: #121212;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+#trabajos {
+    background-color: #121212;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
-
-#trabajos>.container>.d-flex>img{
-  padding: 4px;
+#trabajos>.container>.d-flex>img {
+    padding: 4px;
 }
-
 .footer {
     /*position: absolute;
     left: 0;
@@ -179,14 +153,14 @@ nav {
     background-color: whitesmoke;
     padding: 20px 0px!important;
 }
-
-.footer-middle{
-  border: solid #121212;
-  border-width: 0px 3px;
+.footer-middle {
+    border: solid #121212;
+    border-width: 0px 3px;
 }
-
 /* Palette color codes */
+
 /* Palette URL: http://paletton.com/#uid=7151q0krjrmgDyQlyt7t5lAyIgG */
+
 /*
 .color-primary-0 { color: #daa520 } main
 .color-primary-1 { color: #FFDA7A }
@@ -240,3 +214,45 @@ nav {
 
 
 */
+
+
+
+.containerr {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #E8BC4C;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerr:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  /*font-size: 20px;*/
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
