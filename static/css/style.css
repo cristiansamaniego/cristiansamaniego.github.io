@@ -10,26 +10,33 @@ font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
+
 .whatsapp {
     color: #25d366;
 }
+
 .phone-icon {
     /*color: #72f46c;*/
     color: #25d366;
 }
+
 .champagne {
     font-family: 'champagne_limousines', sans-serif;
 }
+
 h2.champagne {
     font-family: 'champagne_limousines', sans-serif;
     font-size: 3rem;
 }
+
 .montserrat {
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 .text-golden {
     background: -webkit-linear-gradient(left, #ac8010, #ffda7a, #ac8010);
     background: -o-linear-gradient(right, #ac8010, #ffda7a, #ac8010);
@@ -38,21 +45,26 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .mt-8rem {
     margin-top: 8rem!important;
 }
+
+
 /*===============================*/
 
 nav {
     min-height: 100px!important;
     background-color: #121212;
 }
+
 .navbar-brand {
     padding: 4px 0px;
     height: 80px;
     display: block;
     float: none;
 }
+
 .navbar-brand>img {
     display: block;
     max-height: 140%;
@@ -60,6 +72,7 @@ nav {
     margin: auto 40%;
     /* En movil el logo se ve enmedio bien perron, en desktop se ve un poco raro */
 }
+
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     /*color: #daa520!important;*/
@@ -73,29 +86,37 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .nav-link:hover {
     color: #e8bc4c!important;
 }
+
 .dropdown-item:hover {
     color: #e8b84c;
     background-color: #424242;
 }
+
 .telefono {
     letter-spacing: 1px;
 }
+
 .dropdown-menu {
     background-color: #121212;
 }
+
 .dropdown-item {
     color: #daa520;
 }
+
 .dropdown-divider {
     border-top: 1px solid #424242;
 }
+
 .carousel {
     /*max-height: 750px;*/
     overflow: hidden;
 }
+
 .hr-main {
     max-width: 250px;
     margin: 15px auto 30px;
@@ -108,6 +129,7 @@ nav {
     border-image: linear-gradient(to right, #daa520 0px, #ffda7a 50%, #daa520 100%);
     border-image-slice: 1;
 }
+
 .hr-main:after {
     font-family: FontAwesome;
     font-size: 2em;
@@ -119,9 +141,11 @@ nav {
     color: #ffda7a;
     background-color: white;
 }
+
 #ciudades {
     padding-bottom: 4rem;
 }
+
 .card {
     background-color: #daa520!important;
     border: none;
@@ -134,17 +158,21 @@ nav {
     background: linear-gradient(to right, #daa520, #e8bc4c, #daa520);
     -webkit-background-clip: border-box;
 }
+
 #trabajos>.hr-main:after {
     background-color: #121212;
 }
+
 #trabajos {
     background-color: #121212;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+
 #trabajos>.container>.d-flex>img {
     padding: 4px;
 }
+
 .footer {
     /*position: absolute;
     left: 0;
@@ -153,13 +181,25 @@ nav {
     background-color: whitesmoke;
     padding: 20px 0px!important;
 }
+
 .footer-middle {
     border: solid #121212;
     border-width: 0px 3px;
 }
-/* Palette color codes */
+
+
+/* 
+██████╗  █████╗ ██╗     ███████╗████████╗████████╗███████╗     ██████╗ ██████╗ ██╗      ██████╗ ██████╗      ██████╗ ██████╗ ██████╗ ███████╗███████╗
+██╔══██╗██╔══██╗██║     ██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██║     ██╔═══██╗██╔══██╗    ██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔════╝
+██████╔╝███████║██║     █████╗     ██║      ██║   █████╗      ██║     ██║   ██║██║     ██║   ██║██████╔╝    ██║     ██║   ██║██║  ██║█████╗  ███████╗
+██╔═══╝ ██╔══██║██║     ██╔══╝     ██║      ██║   ██╔══╝      ██║     ██║   ██║██║     ██║   ██║██╔══██╗    ██║     ██║   ██║██║  ██║██╔══╝  ╚════██║
+██║     ██║  ██║███████╗███████╗   ██║      ██║   ███████╗    ╚██████╗╚██████╔╝███████╗╚██████╔╝██║  ██║    ╚██████╗╚██████╔╝██████╔╝███████╗███████║
+╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝
+*/
+
 
 /* Palette URL: http://paletton.com/#uid=7151q0krjrmgDyQlyt7t5lAyIgG */
+
 
 /*
 .color-primary-0 { color: #daa520 } main
@@ -215,74 +255,144 @@ nav {
 
 */
 
+
 /*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 
+
+/* 
+ ██████╗ ██╗   ██╗███████╗██████╗ ██╗      █████╗ ██╗   ██╗███████╗
+██╔═══██╗██║   ██║██╔════╝██╔══██╗██║     ██╔══██╗╚██╗ ██╔╝██╔════╝
+██║   ██║██║   ██║█████╗  ██████╔╝██║     ███████║ ╚████╔╝ ███████╗
+██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗██║     ██╔══██║  ╚██╔╝  ╚════██║
+╚██████╔╝ ╚████╔╝ ███████╗██║  ██║███████╗██║  ██║   ██║   ███████║
+ ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ */
+
 .city-container {
-  position: relative;
-  /*width: 50%;*/
+    position: relative;
+    /*width: 50%;*/
 }
 
-.city-card{
-  margin: 0;
+.city-card {
+    margin: 0;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .city-overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #E8BC4C;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #E8BC4C;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
 }
 
 .city-container:hover .city-overlay {
-  bottom: 0;
-  height: 100%;
+    bottom: 0;
+    height: 100%;
 }
 
 .overlay-text {
-  white-space: nowrap;
-  color: white;
-  /*font-size: 20px;*/
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    /*font-size: 20px;*/
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-.student-container{
- margin: 10px 0;
+.student-container {
+    margin: 10px 0;
 }
 
 .student-container:hover .student-overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .student-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /*height: 100%;*/
-  /*width: 100%;*/
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(255,218,122,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 218, 122, 0.5);
 }
 
-.student-card{
-  background-color: transparent!important;
-  margin: 0;
+.student-card {
+    background-color: transparent!important;
+    margin: 0;
+}
+
+
+/* 
+ ██████╗██╗   ██╗██████╗ ███████╗ ██████╗ ███████╗    ███████╗████████╗██╗   ██╗███████╗███████╗
+██╔════╝██║   ██║██╔══██╗██╔════╝██╔═══██╗██╔════╝    ██╔════╝╚══██╔══╝██║   ██║██╔════╝██╔════╝
+██║     ██║   ██║██████╔╝███████╗██║   ██║███████╗    ███████╗   ██║   ██║   ██║█████╗  █████╗  
+██║     ██║   ██║██╔══██╗╚════██║██║   ██║╚════██║    ╚════██║   ██║   ██║   ██║██╔══╝  ██╔══╝  
+╚██████╗╚██████╔╝██║  ██║███████║╚██████╔╝███████║    ███████║   ██║   ╚██████╔╝██║     ██║     
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝    ╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝      */
+
+.cover {
+    margin-bottom: 5rem;
+}
+
+.btn-courses {
+    margin: 4rem auto;
+    color: black;
+    background-color: lightgray;
+    border-color: lightgray;
+    letter-spacing: 4px;
+    max-width: 480px;
+    border-radius: 0;
+    padding: 12px 24px;
+}
+
+.btn-courses:hover {
+    color: #424242;
+}
+
+.info-courses-black {
+    padding: 5px auto;
+    background-color: #121212;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 36px;
+}
+
+.arrow-up {
+    margin-top: 0;
+    width: 0;
+    height: 0;
+    margin-left: 80%;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid #121212;
+}
+
+.seguimiento-card {
+    border: 1px solid black;
+    background-color: white!important;
+    background: transparent!important;
+}
+
+.seguimiento-card>.card-body>.card-title {
+    font-size: 46px;
+}
+
+.seguimiento-card>.card-body>.card-title>strong {
+    font-size: 62px;
 }
