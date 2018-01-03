@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Salubel</title>
     <!-- CSS -->
+    <!-- Font Awesome 4.7.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Source+Sans+Pro" rel="stylesheet">
     <!-- Animate CSS -->
@@ -18,8 +20,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="static/css/style.css">
     <!-- JavaScript -->
-    <!-- Font Awesome v5.0.2 -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 </head>
 
 <body>
@@ -28,12 +28,15 @@
             <img src="static/img/logos/salubel.svg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-golden"></i>
+            <i class="fa fa-bars text-golden"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mr-md-5">
-                    <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Inicio</a>
+                </li>
+                <li class="nav-item mr-md-5">
+                    <a class="nav-link" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item mr-md-5">
                     <a class="nav-link" href="#">Cursos</a>
@@ -54,13 +57,15 @@
                 </li>
             </ul>
             <ul class="navbar-nav">
-                <li class="nav-item mx-md-3 d-flex justify-content-around align-items-center wow fadeIn animated" data-wow-delay="1s">
-                    <div href="" class="nav-link d-inline-flex telefono">6622130623  </div><i class="fas fa-phone phone-icon"></i>
-                    <div href="" class="nav-link d-inline-flex telefono">6623358779  </div><i class="fab fa-whatsapp fa-lg whatsapp"></i>
+                <li class="nav-item mx-md-3 d-flex justify-content-around align-items-center">
+                    <div href="" class="nav-link telefono">6622130623  </div><i class="fa fa-phone phone-icon"></i>
+                    <div href="" class="nav-link telefono">6623358779  </div><i class="fa fa-whatsapp fa-lg whatsapp"></i>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+    <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,8 +102,9 @@
 
         <div class=container>
             <div class="row">
-                    <div class="containerr col-md-4">
-                        <div class="card wow bounceInUp animated image">
+                    <div class="col-xs-12 col-md-4 text-center">
+                        <div class="city-container">
+                            <div class="card city-card wow bounceInUp animated image">
                             <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
                             <div class="card-block text-center">
                                 <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne wow fadeIn animated" data-wow-delay="2s"><strong>Ciudad</strong></h4>
@@ -107,17 +113,18 @@
                                     <br>9:00am - 6:00pm
                                 </p>
                             </div>
-                            <div class="overlay">
-                                <div class="text text-center">
+                            <div class="city-overlay">
+                                <div class="overlay-text text-center">
                                     <h3>Titulo</h3>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <p>Lorem ipsum dolor sit amet</p>
                                 </div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                    <div class="containerr col-md-4">
-                        <div class="card wow bounceInUp animated image">
+                    <div class="city-container col-xs-12 col-md-4">
+                        <div class="card city-card wow bounceInUp animated image">
                             <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
                             <div class="card-block text-center">
                                 <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne wow fadeIn animated" data-wow-delay="2s"><strong>Ciudad</strong></h4>
@@ -126,8 +133,8 @@
                                     <br>9:00am - 6:00pm
                                 </p>
                             </div>
-                            <div class="overlay">
-                                <div class="text text-center">
+                            <div class="city-overlay">
+                                <div class="overlay-text text-center">
                                     <h4>Titulo</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <p>Lorem ipsum dolor sit amet</p>
@@ -135,8 +142,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="containerr col-md-4">
-                        <div class="card wow bounceInUp animated image">
+                    <div class="city-container col-xs-12 col-md-4">
+                        <div class="card city-card wow bounceInUp animated image">
                             <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
                             <div class="card-block text-center">
                                 <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne wow fadeIn animated" data-wow-delay="2s"><strong>Ciudad</strong></h4>
@@ -145,8 +152,8 @@
                                     <br>9:00am - 6:00pm
                                 </p>
                             </div>
-                            <div class="overlay">
-                                <div class="text text-center">
+                            <div class="city-overlay">
+                                <div class="overlay-text text-center">
                                     <h3>Titulo</h3>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <p>Lorem ipsum dolor sit amet</p>
@@ -161,17 +168,62 @@
     <section id="trabajos">
         <h2 class="text-center text-white text-uppercase champagne text-golden"><strong>Trabajos de nuestras alumnas</strong></h2>
         <hr class="hr-main">
-        <div class="">
-            <div class="d-flex flex-column flex-md-row justify-content-center">
-                <img href="static/img/students/1.jpeg" data-fancybox="gallery" class="img-fluid wow fadeIn animated m1 student-img m-2" data-wow-delay="1s" src="static/img/students/1.jpeg" alt="">
-                <img href="static/img/students/2.jpeg" data-fancybox="gallery" class="img-fluid wow fadeIn animated m1 student-img m-2" data-wow-delay="1s" src="static/img/students/2.jpeg" alt="">
-                <img href="static/img/students/1.jpeg" data-fancybox="gallery" class="img-fluid wow fadeIn animated m1 student-img m-2" data-wow-delay="1s" src="static/img/students/1.jpeg" alt="">
-                <img href="static/img/students/2.jpeg" data-fancybox="gallery" class="img-fluid wow fadeIn animated m1 student-img mx-2" data-wow-delay="1s" src="static/img/students/2.jpeg" alt="">
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/1.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/1.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/2.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/2.jpeg" data-fancybox="gallery" class="student-overlay">
+                        <div class="overlay-text">
+                            <div class="fa fa-search-plus fa-2x"></div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/1.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/1.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/2.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/2.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+    <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
     <section id="footer" class="">
             <footer class="footer">
                 <div class="container">
@@ -186,7 +238,7 @@
                         </div>
                         <div class="col-md-4 text-center">
                             <h6>salubelhmo@hotmail.com</h6>
-                            <i class="fab fa-facebook fa-3x mr-2 text-golden"></i><i class="fab fa-instagram fa-3x text-golden"></i>
+                            <i class="fa fa-facebook fa-3x mr-2 text-golden"></i><i class="fa fa-instagram fa-3x text-golden"></i>
                         </div>
                     </div>
                 </div>
