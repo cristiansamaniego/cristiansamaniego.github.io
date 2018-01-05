@@ -55,8 +55,8 @@ function initMap() {
 
     var contentString = '<div id="content">' +
         '<div id="infoWindow">' +
-        '<p>2da de Obregon #140, Colonia Centenario Hermosillo, Sonora. C.P. 83260 ' +
-        '</p>' +
+        '<p>Segunda de Obregón 140</br>El Centenario</br>83260 Hermosillo, Son.México</br>' +
+        '<a href="https://www.google.com/maps?ll=29.076502,-110.958269&z=20&hl=es-MX&gl=US&mapclient=apiv3&cid=7451535436168392916">Ver en Google Maps</a></p>' +
         '</div>' +
         '</div>';
 
