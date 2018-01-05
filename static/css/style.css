@@ -539,8 +539,20 @@ section#reviews {
     letter-spacing: .4rem;
 }
 
+.btn-contact {
+    background-color: #daa520;
+    color: white;
+    border-radius: 0;
+}
+
+.btn-contact:hover {
+    background-color: #e8b84c;
+}
+
 section#contact {
-    background-color: #212529;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #242424;
     background-image: url("../img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -568,7 +580,8 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-bottom-width: 2px;
+    border-color: #daa520;
     box-shadow: none;
 }
 
