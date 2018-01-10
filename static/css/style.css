@@ -3,6 +3,21 @@ font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5::selection {
+    background: rgba(255, 218, 122, 0.5)!important;
+    /* WebKit/Blink Browsers */
+}
+
+p::-moz-selection {
+    background: rgba(255, 218, 122, 0.5)!important;
+    /* Gecko Browsers */
+}
+
 .card-img-top {
     border-radius: 0;
 }
@@ -93,18 +108,19 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
+.nav-link:hover {
+    color: #daa520
+}
+
 
 /* iconos ocultos */
 
 .nav-item>a>i {
-    visibility: hidden;
     opacity: 0;
-    -webkit-transition: .15s ease;
-    transition: .15s ease;
+    transition: all ease 0.1s;
 }
 
 .nav-item>a:hover i {
-    visibility: visible;
     opacity: 1;
 }
 
@@ -648,8 +664,25 @@ section#why-us {
     margin-bottom: 100px;
 }
 
+#about-us>.container>p {
+    margin-bottom: 50px;
+}
+
 #about-us p {
     font-size: 20px;
+}
+
+#about-us h3 {
+    letter-spacing: 4px;
+    font-size: 2rem;
+}
+
+.about-us-left {
+    padding-right: 40px;
+}
+
+.about-us-right {
+    padding-left: 40px;
 }
 
 #why-us p {
@@ -659,6 +692,10 @@ section#why-us {
 .about-icon {
     margin-left: 0;
     margin-right: 0;
+}
+
+.about-icon img {
+    max-height: 250px;
 }
 
 
