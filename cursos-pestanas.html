@@ -67,30 +67,13 @@
     <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
     <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
     <section id="cover" class="cover text-center">
-        <img src="static/img/cover.jpg" alt="" class="img-fluid">
+        <div class="parallaxjs" data-parallax="scroll" data-image-src="static/img/cover.jpg"></div>
     </section>
     <section id="info">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 my-2">
-                    <img class="img-fluid rounded-circle wow fadeInLeft" src="https://content.invisioncic.com/r125076/monthly_2017_07/E.png.2afc0b153bd9285297fc40104d5cf2d6.png" alt="">
-                </div>
-                <div class="col-md-8 my-auto text-center wow fadeInRight">
-                    <h2 class="text-uppercase champagne">Microblading y microshading</h2>
-                    <h3 class="text-uppercase champagne">Tecnica 3d y 4D y correcciones de color</h3>
-                </div>
-                <div class="arrow-up"></div>
-                <div class="col-12 info-courses-black text-center">
-                    <div class="row">
-                        <div class="col-md-12">Aparta tu lugar con $500⁰⁰</div>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="#" class="btn btn-courses text-uppercase col-12">Proximas ciudades</a>
-                </div>
-                <!-- - -->
-                <div class="col-md-4 my-2">
-                    <img class="img-fluid rounded-circle wow fadeInLeft" src="https://content.invisioncic.com/r125076/monthly_2017_07/E.png.2afc0b153bd9285297fc40104d5cf2d6.png" alt="">
+                    <img class="img-fluid rounded-circle wow fadeInLeft" src="static/img/cursos/pestana.jpeg" alt="">
                 </div>
                 <div class="col-md-8 my-auto text-center  wow fadeInRight">
                     <h2 class="text-uppercase champagne">Extension de pestanias</h2>
@@ -102,77 +85,66 @@
                         <div class="col-md-12">Aparta tu lugar con $500⁰⁰</div>
                     </div>
                 </div>
-                <div class="col-12 text-center">
+                <!-- <div class="col-12 text-center">
                     <a href="#" class="btn btn-courses text-uppercase col-12">Proximas ciudades</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <section class="" id="ciudades">
-        <h2 class="text-center mt-8rem text-uppercase text-golden champagne"><strong>Próximas ciudades</strong></h2>
+        <h2 class="text-center mt-4rem text-uppercase text-golden champagne"><strong>Próximas ciudades</strong></h2>
         <hr class="hr-main">
 
         <div class=container>
             <div class="row">
-                <div class="col-xs-12 col-md-4 text-center">
-                    <div class="city-container">
-                        <div class="card city-card wow bounceInUp animated image">
-                            <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne"><strong>Ciudad</strong></h4>
-                                <p class="card-text mb-3">1 y 2 de enero 2018
-                                    <br>Hotel Fulano
-                                    <br>9:00am - 6:00pm
-                                </p>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/1.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/1.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
                             </div>
-                            <div class="city-overlay">
-                                <div class="overlay-text text-center">
-                                    <h3>Titulo</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
-                                    <p>Lorem ipsum dolor sit amet</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="city-container col-xs-12 col-md-4">
-                    <div class="card city-card wow bounceInUp animated image">
-                        <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
-                        <div class="card-block text-center">
-                            <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne"><strong>Ciudad</strong></h4>
-                            <p class="card-text mb-3">1 y 2 de enero 2018
-                                <br>Hotel Fulano
-                                <br>9:00am - 6:00pm
-                            </p>
-                        </div>
-                        <div class="city-overlay">
-                            <div class="overlay-text text-center">
-                                <h4>Titulo</h4>
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="city-container col-xs-12 col-md-4">
-                    <div class="card city-card wow bounceInUp animated image">
-                        <img class="card-img-top" src="static/img/cards/1.jpg" alt="Card image cap">
-                        <div class="card-block text-center">
-                            <h4 class="card-title mb-1 mt-2 text-white text-bold text-uppercase champagne"><strong>Ciudad</strong></h4>
-                            <p class="card-text mb-3">1 y 2 de enero 2018
-                                <br>Hotel Fulano
-                                <br>9:00am - 6:00pm
-                            </p>
-                        </div>
-                        <div class="city-overlay">
-                            <div class="overlay-text text-center">
-                                <h3>Titulo</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/2.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/2.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/1.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/1.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 student-container">
+                    <div class="card student-card wow fadeIn animated" data-wow-delay="1s">
+                        <div class="card-img-top">
+                            <img class="img-fluid student-img anchor-image" src="static/img/students/2.jpeg" alt="">
+                        </div>
+                        <a href="static/img/students/2.jpeg" data-fancybox="gallery" class="student-overlay">
+                            <div class="overlay-text">
+                                <div class="fa fa-search-plus fa-2x"></div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
