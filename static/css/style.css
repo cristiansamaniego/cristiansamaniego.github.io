@@ -51,8 +51,8 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.mt-8rem {
-    margin-top: 8rem!important;
+.mt-4rem {
+    margin-top: 4rem!important;
 }
 
 
@@ -136,7 +136,8 @@ nav {
     overflow: hidden;
 }
 
-.hr-main {
+
+/* .hr-main {
     max-width: 250px;
     margin: 15px auto 30px;
     padding: 0;
@@ -156,9 +157,42 @@ nav {
     top: -.8em;
     display: inline-block;
     padding: 0 0.25em;
-    content: '\f118';
+    background-image: '../img/ojo-gif-parpadeo.gif';
     color: #ffda7a;
     background-color: white;
+} */
+
+.hr-main {
+    background: url('../img/ojo-gif-parpadeo.gif') no-repeat top center;
+    background-size: 80px 80px;
+    display: block;
+    height: 52px;
+    border: 0;
+    position: relative;
+    margin-top: -12px;
+}
+
+.hr-main:before,
+.hr-main:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #000;
+    height: 3px;
+    top: 16px;
+    margin-top: 16px;
+}
+
+.hr-main:before {
+    left: 30%;
+    right: 50%;
+    margin-right: 60px;
+}
+
+.hr-main:after {
+    right: 30%;
+    left: 50%;
+    margin-left: 60px;
 }
 
 #ciudades {
@@ -314,7 +348,7 @@ nav {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: rgba(12,12, 12,0.9);
+    background-color: rgba(12, 12, 12, 0.9);
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -326,7 +360,7 @@ nav {
     height: 100%;
 }
 
-.overlay-text > h3{
+.overlay-text>h3 {
     font-size: 32px;
 }
 
@@ -687,7 +721,7 @@ section#why-us {
     max-height: 250px;
 }
 
-.inductor-img{
+.inductor-img {
     max-width: 500px;
 }
 
@@ -700,3 +734,7 @@ section#why-us {
 ██║     ██║  ██║███████╗███████╗╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
 ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
 */
+
+.parallaxjs {
+    min-height: 600px;
+}
